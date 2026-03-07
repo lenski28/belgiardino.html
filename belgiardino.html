@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bel Giardino Cafe</title>
+    <style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f8f8f8;
+    }
+
+    header {
+        background-color: #0e6400;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    nav {
+        background-color: #333;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a {
+        color: white;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+
+    nav a:hover {
+        background-color: #555;
+    }
+
+    section {
+        padding: 30px;
+    }
+
+    h2 {
+        border-bottom: 2px solid #8B0000;
+        padding-bottom: 5px;
+    }
+
+    .drink-category {
+        margin-top: 20px;
+        color: #0e6400;
+    }
+
+    /* CARD VIEW */
+
+    .menu-item {
+        width: 260px;
+        margin: 15px;
+        display: inline-block;
+        vertical-align: top;
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    .menu-item img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .info {
+        padding: 12px;
+    }
+
+    .text {
+        margin-bottom: 10px;
+    }
+
+    .name {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .desc {
+        font-size: 13px;
+        color: #777;
+        margin-top: 5px;
+    }
+
+    .price {
+        border-top: 1px solid #eee;
+        padding-top: 8px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px;
+        background-color: #333;
+        color: white;
+        margin-top: 20px;
+    }
+</style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bel Giardino Cafe</h1>
+        <p>It's a good day to have a good day ❤️</p>
+    </header>
+
+    <nav>
+        <a href="#drinks">DRINKS</a>
+        <a href="#pastries">PASTRIES</a>
+        <a href="#breakfast">ALL-DAY BREAKFAST</a>
+        <a href="#pastas">PASTAS</a>
+        <a href="#specials">SPECIALS</a>
+        <a href="#sandwiches">SANDWICHES & BURGERS</a>
+    </nav>
+
+    <!-- DRINKS -->
+    <section id="drinks">
+        <h2>DRINKS</h2>
+
+        <h3 class="drink-category">COFFEE</h3>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Americano</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>Small (hot) ₱105</div>
+                    <div>Medium (hot/ice) ₱115</div>
+                    <div>Large (ice) ₱135</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Cappuccino_at_Sightglass_Coffee.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Cappuccino</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>Small (hot)₱155</div>
+                    <div>Medium (hot)₱165</div>
+                </div>
+            </div>
+        </div>
+
+         <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Cappuccino_at_Sightglass_Coffee.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Latte</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>Small (hot) ₱155</div>
+                    <div>Medium (hot/ice) ₱165</div>
+                    <div>Large (ice) ₱185</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Cappuccino_at_Sightglass_Coffee.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Vanilla Latte</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>Small (hot) ₱165</div>
+                    <div>Medium (hot/ice) ₱175</div>
+                    <div>Large (ice) ₱195</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Cappuccino_at_Sightglass_Coffee.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Mocha</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>Small (hot) ₱165</div>
+                    <div>Medium (hot/ice) ₱175</div>
+                    <div>Large (ice) ₱185</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Cappuccino_at_Sightglass_Coffee.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Latte</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>Small (hot) ₱185</div>
+                    <div>Medium (hot/ice) ₱205</div>
+                    <div>Large (ice) ₱225</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Cappuccino_at_Sightglass_Coffee.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Cookie Butter Latte</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>Medium (ice) ₱195</div>
+                    <div>Large (ice) ₱215</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Cappuccino_at_Sightglass_Coffee.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Dirty Matcha</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>Medium (ice) ₱195</div>
+                    <div>Large (ice) ₱215</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Cappuccino_at_Sightglass_Coffee.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Sea Salt Latte</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>Medium (ice) ₱195</div>
+                    <div>Large (ice) ₱215</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Cappuccino_at_Sightglass_Coffee.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Spanish Latte</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>Small (hot) ₱165</div>
+                    <div>Medium (hot/ice) ₱175</div>
+                    <div>Large (ice) ₱195</div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="drink-category">NON-COFFEE</h3>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Cappuccino_at_Sightglass_Coffee.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">BG Chocolate</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>Small (hot) ₱165</div>
+                    <div>Medium (hot/ice) ₱175</div>
+                    <div>Large (ice) ₱195</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Cappuccino_at_Sightglass_Coffee.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">BG Matcha Latte</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>Small (hot) ₱175</div>
+                    <div>Medium (hot/ice) ₱185</div>
+                    <div>Large (ice) ₱205</div>
+                </div>
+            </div>
+        </div>
+
+         <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Cappuccino_at_Sightglass_Coffee.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Sea Salt Matcha</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    
+                    <div>Medium (ice) ₱195</div>
+                    <div>Large (ice) ₱215</div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <h3 class="drink-category">REFRESHERS</h3>
+
+         <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Cappuccino_at_Sightglass_Coffee.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Butterfly Calamansi Ade</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>Medium (ice) ₱145</div>
+                    <div>Large (ice) ₱155</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Cappuccino_at_Sightglass_Coffee.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Honey Citrus Ginger Ade</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>Small (hot) ₱135</div>
+                    <div>Medium (hot/ice) ₱145</div>
+                    <div>Large (ice) ₱155</div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="drink-category">Alchol</h3>
+
+         <div class="menu-item">
+            <img src="corona.jpg" alt="Corona">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Corona</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>₱145</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="smirnoff.jpg" alt="Smirnoff">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Smirnoff</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>₱145</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="hoegaarden.jpg" alt="Hoegaarden Brewery">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Hoegaarden Brewery</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>₱145</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="lemon dou.jpg" alt="Lemon Dou">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Lemon Dou</span>
+                    <p class="desc">.</p>
+                </div>
+                <div class="price">
+                    <div>₱145</div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        
+
+
+    </section>
+
+    <!-- PASTRIES -->
+    <section id="pastries">
+        <h2>PASTRIES</h2>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Chocolate_croissant.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">BG Choco Chip</span>
+                </div>
+                <span class="price">₱95</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Blueberry_muffin.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Fudgy Brownies</span>
+                </div>
+                <span class="price">₱135</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Blueberry_muffin.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Fudgy chocolate brownies</span>
+                </div>
+                <span class="price">₱105</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Blueberry_muffin.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Carrot Cake</span>
+                </div>
+                <span class="price">₱130</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Blueberry_muffin.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">S'mores Revelbar</span>
+                </div>
+                <span class="price">₱105</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Blueberry_muffin.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Oat cookies(3pcs)</span>
+                </div>
+                <span class="price">₱125</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/06/Blueberry_muffin.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Red Velvet)</span>
+                </div>
+                <span class="price">₱125</span>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- ALL-DAY BREAKFAST -->
+    <section id="breakfast">
+        <h2>ALL-DAY BREAKFAST</h2>
+
+        <div class="menu-item">
+            <img src="tapa.jpg" alt="Sunrise Beef Tapa">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Sunrise Beef Tapa</span>
+                    <p class="desc">Tender, marinated beef strips with garlic rice and egg.</p>
+                </div>
+                <span class="price">₱255</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="adobo.jpg" alt="Crispy Adobo Crunch">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Crispy Adobo Crunch</span>
+                    <p class="desc">Shreded pork adobo,fried Crispy with garlic rice and egg.</p>
+                </div>
+                <span class="price">₱235</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://www.thespruceeats.com/thmb/y6gT4wgjN5E4l-LNRGM8mrrpHPs=/4602x3068/filters:fill(auto,1)/traditional-chicken-wings-912937-hero-01-6c1a003373a54538a732abc0005145d8.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Daing Na Bangus</span>
+                    <p class="desc">Marinated milk fish, fried to perfection, with garlic rice and egg.</p>
+                </div>
+                <span class="price">₱225</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="fluffy.jpg" alt="Fulffy Morning Pancake">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Fluffy Morning Pancake</span>
+                    <p class="desc">Pancake, bacon and eggs (prepared your way).</p>
+                </div>
+                <span class="price">₱235</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://www.thespruceeats.com/thmb/y6gT4wgjN5E4l-LNRGM8mrrpHPs=/4602x3068/filters:fill(auto,1)/traditional-chicken-wings-912937-hero-01-6c1a003373a54538a732abc0005145d8.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">French Toast Combo</span>
+                    <p class="desc">French toast with blueberry sauce, sausages and eggs (prepared your way).</p>
+                </div>
+                <span class="price">₱235</span>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- PASTAS -->
+    <section id="pastas">
+        <h2>PASTAS</h2>
+
+        <div class="menu-item">
+            <img src="https://img.taste.com.au/4xJp_Noa/taste/2016/11/marinara-sauce-28898-1.jpeg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Crab Noir Pasta</span>
+                    <p class="desc">Black ink pasta with fresh seafoods in a rich savory sauce</p>
+                </div>
+                <span class="price">₱245</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://thestayathomechef.com/wp-content/uploads/2013/06/Thick-Grilled-Pork-Chops-2.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Creamy Truffle Bliss</span>
+                    <p class="desc">Creamy truffle-infused pasta with mushrooms.</p>
+                </div>
+                <span class="price">₱245</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://thestayathomechef.com/wp-content/uploads/2013/06/Thick-Grilled-Pork-Chops-2.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Cajun Heat</span>
+                    <p class="desc">Bold cajun-seasoned pasta with creamy spicy kick.</p>
+                </div>
+                <span class="price">₱235</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://thestayathomechef.com/wp-content/uploads/2013/06/Thick-Grilled-Pork-Chops-2.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Tuscan Herb pasta</span>
+                    <p class="desc">Light and fresh tomato based pasta with aromatic herbs.</p>
+                </div>
+                <span class="price">₱225</span>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SPECIALS -->
+    <section id="specials">
+        <h2>SPECIALS</h2>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Chocolate_cake.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Classic Ceasar Salad</span>
+                    <p class="desc">Crisp greens with grilled chicken and classic ceasar dressing.</p>
+                </div>
+                <span class="price">₱235</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Pancakes_with_syrup.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Country-Style Salisbury</span>
+                    <p class="desc">Juicy steak with mushroom gravy, served With rice and buttered vegetables.</p>
+                </div>
+                <span class="price">₱275</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Pancakes_with_syrup.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Golden Pork Scnitzel</span>
+                    <p class="desc">Crispy breaded pork cutlet with rice and buttered vegetables.</p>
+                </div>
+                <span class="price">₱265</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Pancakes_with_syrup.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Cornflake Tenders</span>
+                    <p class="desc">Crunchy chicken tenders with crispy potato wedges.</p>
+                </div>
+                <span class="price">₱255</span>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- SANDWICHES & BURGERS -->
+    <section id="sandwiches">
+        <h2>SANDWICHES & BURGERS</h2>
+
+        <div class="menu-item">
+            <img src="https://img.freepik.com/premium-photo/closeup-moist-chocolate-layer-cake_198067-550.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Bg Signature Burger</span>
+                    <p class="desc">Juicy beef patty with cheese, lettuce. tomato, and signature sauce. Served with potato wedges.</p>
+                </div>
+                <span class="price">₱265</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://www.thetakeout.com/img/gallery/canned-cinnamon-roll-ice-cream-cone-swap/l-intro-1772213007.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Clubhouse sandwich</span>
+                    <p class="desc">Multi-layered sandwich with ham, chicken, egg. and veggies. Served with fries.</p>
+                </div>
+                <span class="price">₱285</span>
+            </div>
+        </div>
+
+        <div class="menu-item">
+            <img src="https://www.thetakeout.com/img/gallery/canned-cinnamon-roll-ice-cream-cone-swap/l-intro-1772213007.jpg">
+            <div class="info">
+                <div class="text">
+                    <span class="name">Grilled Cheese sandwich</span>
+                    <p class="desc">Toasted cheese sandwich with warm tomato soup..</p>
+                </div>
+                <span class="price">₱215</span>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Bel Giardino Cafe | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
