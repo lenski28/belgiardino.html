@@ -69,6 +69,13 @@ h2 {
     text-align: left;
 }
 
+/* container alignment */
+section{
+    padding:30px;
+    text-align:center;
+
+}
+
 .menu-item img {
     width: 100%;
     height: 180px;
@@ -112,21 +119,28 @@ footer {
 
 /* MOBILE VIEW */
 
-@media (max-width: 600px) {
+@media (max-width:600px){
 
-    section {
-        padding: 15px;
-    }
+section{
+padding:15px;
+}
 
-    .menu-item {
-        width: 100%;
-        margin: 15px 0;
-    }
+.menu-item{
+width:90%;
+margin:10px auto;
+display:block;
+}
 
-    nav a {
-        padding: 10px;
-        font-size: 14px;
-    }
+nav{
+flex-direction:column;
+}
+
+nav a{
+padding:12px;
+font-size:14px;
+border-top:1px solid rgba(0,0,0,0.1);
+}
+
 
 }
 </style>
@@ -380,7 +394,7 @@ footer {
             </div>
         </div>
 
-        <h3 class="drink-category">Alchol</h3>
+        <h3 class="drink-category">Alcohol</h3>
 
          <div class="menu-item">
             <img src="corona.jpg" alt="Corona">
