@@ -119,29 +119,19 @@ footer {
 
 /* MOBILE VIEW */
 
-@media (max-width:600px){
+@media (max-width: 600px) {
+    .menu-item {
+        width: 100%;
+        margin: 10px 0;
+    }
 
-section{
-padding:15px;
-}
+    nav {
+        flex-direction: column;
+    }
 
-.menu-item{
-width:90%;
-margin:10px auto;
-display:block;
-}
-
-nav{
-flex-direction:column;
-}
-
-nav a{
-padding:12px;
-font-size:14px;
-border-top:1px solid rgba(0,0,0,0.1);
-}
-
-
+    nav a {
+        padding: 10px;
+    }
 }
 </style>
 </head>
@@ -359,8 +349,7 @@ border-top:1px solid rgba(0,0,0,0.1);
                     <div>Large (ice) ₱215</div>
                 </div>
             </div>
-        </div>
-
+        </div>       
         
 
         <h3 class="drink-category">REFRESHERS</h3>
@@ -393,6 +382,65 @@ border-top:1px solid rgba(0,0,0,0.1);
                 </div>
             </div>
         </div>
+
+        <h3 class="drink-category">ADD-ONS</h3>
+
+<div class="menu-item">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Coffee_bean_icon.png" alt="Extra Shot">
+    <div class="info">
+        <div class="text">
+            <span class="name">Extra Shot</span>
+            <p class="desc">Add an extra espresso shot to your drink.</p>
+        </div>
+        <div class="price">
+            <div>₱40</div>
+        </div>
+    </div>
+</div>
+
+<div class="menu-item">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Whipped_cream_icon.png" alt="Whipped Cream">
+    <div class="info">
+        <div class="text">
+            <span class="name">Sauce</span>
+            <p class="desc"></p>
+            <p class="desc">Add flavored sauce to your drink.</p>
+        </div>
+        <div class="price">
+            <div>₱30</div>
+        </div>
+    </div>
+</div>
+
+<div class="menu-item">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Syrup_icon.png" alt="Syrup Flavor">
+    <div class="info">
+        <div class="text">
+            <span class="name">Syrup</span>
+            <p class="desc">Vanilla, Caramel, or Hazelnut syrup.</p>
+        </div>
+        <div class="price">
+            <div>₱25</div>
+        </div>
+    </div>
+</div>
+
+<div class="menu-item">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Milk_icon.png" alt="Milk Options">
+    <div class="info">
+        <div class="text">
+            <span class="name">Oat Milk</span>
+            <p class="desc">Creamy oat milk for a dairy-free option.</p>
+        </div>
+        <div class="price">
+            <div>Small ₱40</div>
+            <div>Medium ₱50</div>
+            <div>Large ₱60</div>
+        </div>
+    </div>
+</div>
+        
+
 
         <h3 class="drink-category">Alcohol</h3>
 
@@ -448,11 +496,7 @@ border-top:1px solid rgba(0,0,0,0.1);
             </div>
         </div>
 
-        
-
-        
-
-
+             
     </section>
 
     <!-- PASTRIES -->
